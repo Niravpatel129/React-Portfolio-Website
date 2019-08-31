@@ -38,6 +38,29 @@ class QuoteSection extends Component {
             our engagement with stories.
           </h2>
         </div>
+        <div className="typeboxes">
+          <div className="typebox">
+            <h3>1. OPPROTUNITIES</h3>
+            <p>
+              Building an experience that blends analog and digital in a clever
+              and meaningful way.
+            </p>
+          </div>
+          <div className="typebox">
+            <h3>2. ENGAGMENT</h3>
+            <p>
+              Create a storytelling experience that allows families to have a
+              deeper connection with stories by engaging more of their senses.
+            </p>
+          </div>
+          <div className="typebox">
+            <h3>3. COLLABORATION</h3>
+            <p>
+              Generate a product that encourages families to better connect with
+              each other.
+            </p>
+          </div>
+        </div>
       </div>
     );
   }

@@ -1,5 +1,6 @@
 .QuoteSection {
   background-color: #222222;
+  padding: 110px 0;
 }
 
 h1 {
@@ -7,20 +8,20 @@ h1 {
   font-family: "ogg";
   font-size: 110px;
   color: white;
-  padding-top: 90px;
   margin-left: 140px;
 }
 
 h3 {
   color: white;
-  font-family: "Maison Neue";
+  src: url(MaisonNeue-Light.otf);
   font-weight: bold;
+  font-size: 15px;
 }
 
 h2 {
   margin: 0;
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 70px;
   padding-left: 190px;
   color: white;
   font-size: 40px;
@@ -33,13 +34,13 @@ h2 {
 p {
   color: white;
   font-family: "Maison Neue";
+  font-size: 13px;
 }
 
 .typebox {
   width: 300px;
   display: inline-table;
   height: 112px;
-
   margin-right: 80px;
 }
 
