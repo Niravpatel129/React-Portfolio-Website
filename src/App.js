@@ -2,13 +2,14 @@ import React from "react";
 import "./App.css";
 import Toolbar from "./components/Toolbar/Toolbar";
 import FullScreenMedia from "./components/FullScreenMedia/FullScreenMedia";
+import QuoteSection from "./components/QuoteSection/QuoteSection";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Toolbar />
-        <FullScreenMedia />
-      </header>
+      <Toolbar />
+      <FullScreenMedia />
+      <QuoteSection />
     </div>
   );
 }

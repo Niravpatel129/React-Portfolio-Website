@@ -8,7 +8,11 @@ class FullScreenMedia extends Component {
     this.state = {};
   }
   render() {
-    return <img src={header} alt="header"></img>;
+    return (
+      <div className="FullScreenMedia">
+        <img src={header} alt="header"></img>
+      </div>
+    );
   }
 }
 
