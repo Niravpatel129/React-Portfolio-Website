@@ -17,15 +17,15 @@ h3 {
   font-size: 15px;
 }
 
-h2 {
-  margin: 0;
-  padding: 8% 0;
+.quote-text {
   color: white;
   font-size: 40px;
   font-family: "Maison Nueue";
   font-weight: 100;
   width: 730px;
   text-align: center;
+  margin: 0 auto;
+  padding: 5% 0;
 }
 
 p {
@@ -43,9 +43,8 @@ p {
 
 .typeboxes {
   margin-left: 10%;
-  margin-top: 5%;
 }
 
 .quote {
-  margin-left: 23%;
+  margin: 0 auto;
 }

@@ -32,7 +32,7 @@ class QuoteSection extends Component {
         </div>
 
         <div className="quote">
-          <h2>
+          <h2 className="quote-text">
             {" "}
             An interactive and accessible AR experience that actually deepens
             our engagement with stories.
