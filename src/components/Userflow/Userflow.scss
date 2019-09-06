@@ -11,8 +11,12 @@
   h4 {
     text-align: left;
     font-weight: bold;
+    font-size: 14px;
     padding-left: 8%;
     padding-bottom: 6%;
+  }
+  p {
+    font-size: 13px;
   }
   img {
     display: inline-block;
@@ -21,6 +25,6 @@
 
   .imageblock {
     display: inline-table;
-    width: 250px;
+    width: 18%;
   }
 }
