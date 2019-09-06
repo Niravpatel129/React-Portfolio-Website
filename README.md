@@ -1,4 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website is hoted at: http://www.michvu.co
+
+Alias hosting at: https://hardcore-jones-839753.netlify.com
 
 ## Available Scripts
 
