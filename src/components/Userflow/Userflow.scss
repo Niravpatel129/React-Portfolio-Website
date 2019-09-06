@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "MaisonNeue-Light";
+  src: url("/static/media/MaisonNeue-Light.dab2c256.otf");
+}
+
+.Userflow {
+  font-family: "MaisonNeue-Light";
+  text-align: center;
+  padding: 7% 0;
+
+  h4 {
+    text-align: left;
+    font-weight: bold;
+    padding-left: 8%;
+    padding-bottom: 6%;
+  }
+  img {
+    display: inline-block;
+    width: 200px;
+  }
+
+  .imageblock {
+    display: inline-table;
+    width: 250px;
+  }
+}

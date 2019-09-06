@@ -5,6 +5,7 @@ import FullScreenMedia from "./components/FullScreenMedia/FullScreenMedia";
 import QuoteSection from "./components/QuoteSection/QuoteSection";
 import VideoSection from "./components/VideoSection/VideoSection";
 import InformationComponent from "./components/InformationComponent/InformationComponent";
+import Userflow from "./components/Userflow/Userflow";
 
 function isMobileDevice() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <QuoteSection />
         <VideoSection />
         <InformationComponent />
+        <Userflow />
       </div>
     );
   }
