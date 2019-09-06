@@ -1,0 +1,50 @@
+.QuoteSection {
+  background-color: #222222;
+  padding: 10% 0;
+
+  h1 {
+    margin: 0;
+    font-family: "ogg";
+    font-size: 110px;
+    color: white;
+    margin-left: 140px;
+  }
+
+  h3 {
+    color: white;
+    src: url(MaisonNeue-Light.otf);
+    font-size: 15px;
+  }
+
+  .quote-text {
+    color: white;
+    font-size: 40px;
+    font-family: "Maison Nueue";
+    font-weight: 100;
+    width: 730px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5% 0;
+  }
+
+  p {
+    color: white;
+    font-family: "Maison Neue";
+    font-size: 13px;
+  }
+
+  .typebox {
+    width: 300px;
+    display: inline-table;
+    height: 112px;
+    margin-right: 7%;
+  }
+
+  .typeboxes {
+    margin-left: 10%;
+  }
+
+  .quote {
+    margin: 0 auto;
+  }
+}
