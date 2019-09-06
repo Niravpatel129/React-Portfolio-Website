@@ -31,7 +31,7 @@ class VideoSection extends Component {
       <div className="wrapper">
         <video
           loop={true}
-          className="video"
+          className="videoBoxComponent"
           ref="vidRef"
           onClick={this.playVideo.bind(this)}
         >
