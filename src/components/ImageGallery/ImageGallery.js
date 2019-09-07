@@ -3,6 +3,7 @@ import "./ImageGallery.scss";
 import box1 from "./box1.svg";
 import box2 from "./box2.svg";
 import video from "../../Videos/Tutorial.mp4";
+// import ipad from "./Rectangle.svg";
 
 class ImageGallery extends React.Component {
   constructor(props) {
