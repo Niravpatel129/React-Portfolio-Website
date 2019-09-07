@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="200px" viewBox="0 0 1024 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>new</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Case-Study-Page-1" transform="translate(-208.000000, -4738.000000)">
+            <g id="new" transform="translate(208.000000, 4738.000000)">
+                <rect id="Rectangle-Copy-5" fill="#FFFFF9" x="0" y="100" width="1024" height="100"></rect>
+                <rect id="Rectangle" fill="#494883" x="0" y="0" width="512" height="100"></rect>
+                <text id="#494883" font-family="MaisonNeue-Medium, Maison Neue" font-size="22" font-weight="400" fill="#FFFFFF">
+                    <tspan x="40" y="51">#494883</tspan>
+                </text>
+                <text id="#FFFFF9" font-family="MaisonNeue-Medium, Maison Neue" font-size="22" font-weight="400" fill="#303030">
+                    <tspan x="40" y="151">#FFFFF9</tspan>
+                </text>
+                <rect id="Rectangle-Copy-2" fill="#FF8D00" x="512" y="0" width="512" height="100"></rect>
+                <text id="#FF8D00" font-family="MaisonNeue-Medium, Maison Neue" font-size="22" font-weight="400" fill="#FFFFFF">
+                    <tspan x="552" y="51">#FF8D00</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

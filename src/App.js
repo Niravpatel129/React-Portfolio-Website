@@ -6,29 +6,22 @@ import QuoteSection from "./components/QuoteSection/QuoteSection";
 import VideoSection from "./components/VideoSection/VideoSection";
 import InformationComponent from "./components/InformationComponent/InformationComponent";
 import Userflow from "./components/Userflow/Userflow";
+import HexComponent from "./components/HexComponent/HexComponent";
+import ImageGallery from "./components/ImageGallery/ImageGallery";
 
-function isMobileDevice() {
-  return (
-    typeof window.orientation !== "undefined" ||
-    navigator.userAgent.indexOf("IEMobile") !== -1
-  );
-}
 function App() {
-  if (!isMobileDevice) {
-    console.log("mo");
-    return <h1>Site is not made for mobile yet! Check back soon :)</h1>;
-  } else {
-    return (
-      <div className="App">
-        <Toolbar />
-        <FullScreenMedia />
-        <QuoteSection />
-        <VideoSection />
-        <InformationComponent />
-        <Userflow />
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <Toolbar />
+      <FullScreenMedia />
+      <QuoteSection />
+      <VideoSection />
+      <InformationComponent />
+      <Userflow />
+      <HexComponent />
+      <ImageGallery />
+    </div>
+  );
 }
 
 export default App;

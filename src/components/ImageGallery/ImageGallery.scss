@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "MaisonNeue-Light";
+  src: url("/static/media/MaisonNeue-Light.dab2c256.otf");
+}
+
+.ImageGallery {
+  background-color: #222222;
+  padding: 5% 0;
+  color: white;
+  font-family: "MaisonNeue-Light";
+  h4 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 15%;
+    padding-bottom: 6%;
+  }
+
+  img {
+    margin: 0 auto;
+    padding-bottom: 5%;
+    width: 50%;
+  }
+  video {
+    display: block;
+    width: 47%;
+    margin: 0 auto;
+  }
+  .videoPlayer {
+    position: relative;
+    width: 100%;
+
+    .videoBoxComponent {
+      width: 45%;
+      border: 1px solid black;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .playpause {
+      background-image: url("./Video.png");
+      background-repeat: no-repeat;
+      width: 8%;
+      position: absolute;
+      left: 0%;
+      right: 0%;
+      top: 0%;
+      bottom: 0%;
+      margin: auto;
+      background-size: contain;
+      background-position: center;
+      transition: opacity 0.5s;
+    }
+
+    .m-fadeOut {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s linear 300ms, opacity 300ms;
+    }
+    .m-fadeIn {
+      visibility: visible;
+      opacity: 1;
+      transition: visibility 0s linear 0s, opacity 300ms;
+    }
+  }
+}

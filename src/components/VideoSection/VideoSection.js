@@ -10,10 +10,8 @@ class VideoSection extends Component {
   }
 
   playVideo() {
-    console.log(this.refs.vidButtonRef);
     if (this.state.videoAutoPlaying === "True") {
       this.setState({ videoAutoPlaying: "False" });
-      console.log("pause");
       this.playButtonClassNames = "playpause m-fadeIn";
 
       this.refs.vidRef.pause();
@@ -21,14 +19,13 @@ class VideoSection extends Component {
       this.setState({ videoAutoPlaying: "True" });
       this.playButtonClassNames = "playpause m-fadeOut";
 
-      console.log("play");
       this.refs.vidRef.play();
     }
   }
 
   render() {
     return (
-      <div className="wrapper">
+      <div className="VideoSection">
         <video
           loop={true}
           className="videoBoxComponent"
