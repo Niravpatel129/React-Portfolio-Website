@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "MaisonNeue-Light";
+  src: url("/static/media/MaisonNeue-Light.dab2c256.otf");
+}
+
+.ImageBoxes {
+  font-family: "MaisonNeue-Light";
+  color: white;
+  font-weight: bolder;
+  background-color: #222222;
+
+  h4:first-child {
+    padding-left: 15%;
+  }
+  h4 {
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 7%;
+    padding-bottom: 6%;
+  }
+  img {
+    width: 25%;
+  }
+}

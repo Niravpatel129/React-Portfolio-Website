@@ -2,7 +2,9 @@ import React from "react";
 import "./ImageGallery.scss";
 import box1 from "./box1.svg";
 import box2 from "./box2.svg";
-import video from "../../Videos/Tutorial.mp4";
+import box3 from "./box3.svg";
+
+// import video from "../../Videos/Tutorial.mp4";
 // import ipad from "./Rectangle.svg";
 
 class ImageGallery extends React.Component {
@@ -37,7 +39,9 @@ class ImageGallery extends React.Component {
         </h4>
         <img src={box1} alt={box1}></img>
         <img src={box2} alt={box1}></img>
-        <div className={this.playButtonClassNames}>
+        <img src={box3} alt={box3}></img>
+
+        {/* <div className={this.playButtonClassNames}>
           <video
             src={video}
             ref="vidRef"
@@ -48,7 +52,7 @@ class ImageGallery extends React.Component {
             ref="vidButtonRef"
             onClick={this.playVideo.bind(this)}
           ></div>
-        </div>
+        </div> */}
       </div>
     );
   }

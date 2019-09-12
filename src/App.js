@@ -8,7 +8,7 @@ import InformationComponent from "./components/InformationComponent/InformationC
 import Userflow from "./components/Userflow/Userflow";
 import HexComponent from "./components/HexComponent/HexComponent";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
-
+import ImageBoxes from "./components/ImageBoxes/ImageBoxes";
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,7 @@ function App() {
       <Userflow />
       <HexComponent />
       <ImageGallery />
+      <ImageBoxes />
     </div>
   );
 }
