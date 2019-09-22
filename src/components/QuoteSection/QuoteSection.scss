@@ -2,14 +2,14 @@
 
 .QuoteSection {
   background-color: #222222;
-  padding: 10% 0;
+  padding: 10% 2%;
 
   h1 {
     margin: 0;
     font-family: "ogg";
     font-size: calculateRem(120px);
     color: white;
-    margin-left: calculateRem(201px);
+    padding-left: 15%;
   }
 
   h3 {
