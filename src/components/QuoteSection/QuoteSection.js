@@ -27,13 +27,15 @@ class QuoteSection extends Component {
           </div>
           <div className="typebox3">
             <h3>TIME</h3>
-            <p>June 2019 - August 2019 ( 3 months )</p>
+            <p>
+              June 2019 - August 2019. The project 3 was estimated around 3
+              months
+            </p>
           </div>
         </div>
 
         <div className="quote">
           <h2 className="quote-text">
-            {" "}
             An interactive and accessible AR experience that actually deepens
             our engagement with stories.
           </h2>

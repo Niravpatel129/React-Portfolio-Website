@@ -8,13 +8,14 @@
 .QuoteSection {
   background-color: #222222;
   padding: 10% 0;
+  list-style: none;
 
   h1 {
     margin: 0;
     font-family: "ogg";
     font-size: calculateRem(120px);
     color: white;
-    padding-left: 20%;
+    padding-left: 12%;
   }
 
   h3 {
@@ -42,28 +43,27 @@
 
   .typebox1 {
     width: 20%;
-    display: inline-table;
+    display: inline-block;
     height: 112px;
     margin-right: 7%;
   }
   .typebox2 {
     width: 20%;
-    display: inline-table;
+    display: inline-block;
     height: 112px;
     margin-right: 7%;
   }
   .typebox3 {
     width: 20%;
-    display: inline-table;
+    display: inline-block;
     height: 112px;
   }
 
   .typeboxes {
-    vertical-align: center;
-    margin: 0 auto;
-    margin-left: 20%;
-    width: 90%;
-    // margin-left: calculateRem(210px);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    // align-items: center;
   }
 
   .quote {
