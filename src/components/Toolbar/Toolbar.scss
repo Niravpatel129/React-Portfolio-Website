@@ -1,14 +1,23 @@
 .Toolbar {
+  display: block;
+  width: 100vw;
+  .light {
+    background-color: #333;
+  }
+
+  .dark {
+    background-color: #000000;
+  }
   ul {
     list-style-type: none;
     height: 100px;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   li {

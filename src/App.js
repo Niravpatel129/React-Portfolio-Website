@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter, Route } from "react-router-dom";
 import Toolbar from "./components/Toolbar/Toolbar";
 import FullScreenMedia from "./components/FullScreenMedia/FullScreenMedia";
 import QuoteSection from "./components/QuoteSection/QuoteSection";
@@ -9,10 +10,38 @@ import Userflow from "./components/Userflow/Userflow";
 import HexComponent from "./components/HexComponent/HexComponent";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import ImageBoxes from "./components/ImageBoxes/ImageBoxes";
-function App() {
+
+import Home from "./components/Home/Home";
+// function App() {
+//   return (
+//     <div className="App">
+//       <Toolbar />
+//       <FullScreenMedia />
+//       <QuoteSection />
+//       <VideoSection />
+//       <InformationComponent />
+//       <Userflow />
+//       <HexComponent />
+//       <ImageGallery />
+//       <ImageBoxes />
+//     </div>
+//   );
+
+const PageOne = () => {
   return (
-    <div className="App">
-      <Toolbar />
+    <div className="HomePage">
+      <Toolbar theme="dark" />
+      <Home />
+      {/* <FullScreenMedia /> */}
+      {/* <QuoteSection /> */}
+    </div>
+  );
+};
+
+const Storytale = () => {
+  return (
+    <div className="Storytale">
+      <Toolbar theme="light" />
       <FullScreenMedia />
       <QuoteSection />
       <VideoSection />
@@ -21,6 +50,17 @@ function App() {
       <HexComponent />
       <ImageGallery />
       <ImageBoxes />
+    </div>
+  );
+};
+
+function App() {
+  return (
+    <div>
+      <BrowserRouter>
+        <Route path="/" exact component={PageOne} />
+        <Route path="/storytale" component={Storytale} />
+      </BrowserRouter>
     </div>
   );
 }

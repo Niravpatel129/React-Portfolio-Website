@@ -4,9 +4,9 @@ import "./Toolbar.scss";
 
 const Toolbar = props => (
   <div className="Toolbar">
-    <ul>
+    <ul className={props.theme}>
       <li>
-        <a className="name" href="#home">
+        <a className="name" href="/">
           MICHELLE VU
         </a>
       </li>
@@ -16,7 +16,7 @@ const Toolbar = props => (
         </a>
       </li>
       <li className="updated">
-        <a href="#contact">LAST UPDATED: 07/26/19</a>
+        <a href="/storytale">LAST UPDATED: 07/26/19</a>
       </li>
       <li>
         <a className="about" href="#about">
