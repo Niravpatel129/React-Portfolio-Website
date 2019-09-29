@@ -11,9 +11,10 @@
   position: relative;
 
   video {
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1000px) {
       padding-top: 0%;
-      width: 55%;
+      padding-left: 1%;
+      width: 43%;
     }
     width: 40%;
     padding-top: 6%;
@@ -41,7 +42,7 @@
   }
 
   .quote {
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1000px) {
       /* For mobile phones: */
       padding: 25px;
     }
@@ -60,8 +61,8 @@
     margin: 0 auto;
   }
   .how {
-    @media only screen and (max-width: 768px) {
-      padding-right: 7%;
+    @media only screen and (max-width: 1000px) {
+      padding-right: 11%;
     }
     font-family: "MaisonNeue-Light";
     display: inline-block;
