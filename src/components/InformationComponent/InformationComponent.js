@@ -49,21 +49,14 @@ class InformationComponent extends Component {
               model. For example, they can tap a cow to hear it “moo”.
             </p>
           </div>
-          <div className="videoBoxContainer">
-            <video
-              loop={true}
-              className="videoBoxComponent"
-              ref="vidRef"
-              onClick={this.playVideo.bind(this)}
-            >
-              <source src={video} type="video/mp4" />
-            </video>
-            {/* <div
-              className={this.playButtonClassNames}
-              ref="vidButtonRef"
-              onClick={this.playVideo.bind(this)}
-            ></div> */}
-          </div>
+          <video
+            loop={true}
+            className="videoBoxComponent"
+            ref="vidRef"
+            onClick={this.playVideo.bind(this)}
+          >
+            <source src={video} type="video/mp4" />
+          </video>
         </div>
         <div className="bottomblock">
           <div className="paragraph1">
