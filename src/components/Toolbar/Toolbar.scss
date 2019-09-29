@@ -1,6 +1,10 @@
 .Toolbar {
   display: block;
   width: 100vw;
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    width: 210vw;
+  }
   .light {
     background-color: #333;
   }

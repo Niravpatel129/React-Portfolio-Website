@@ -12,20 +12,6 @@ import ImageGallery from "./components/ImageGallery/ImageGallery";
 import ImageBoxes from "./components/ImageBoxes/ImageBoxes";
 
 import Home from "./components/Home/Home";
-// function App() {
-//   return (
-//     <div className="App">
-//       <Toolbar />
-//       <FullScreenMedia />
-//       <QuoteSection />
-//       <VideoSection />
-//       <InformationComponent />
-//       <Userflow />
-//       <HexComponent />
-//       <ImageGallery />
-//       <ImageBoxes />
-//     </div>
-//   );
 
 const PageOne = () => {
   return (

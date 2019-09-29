@@ -1,21 +1,37 @@
 .Home {
   background-color: black;
-  padding: 1% 0;
+  padding: 5% 0;
+  padding-bottom: 20%;
   h1 {
     color: white;
-    font-weight: 100;
-    font-size: 5.7em;
-    font-family: "Times New Roman", Times, serif;
-
+    font-weight: 210;
+    font-size: 6.2em;
+    position: relative;
     width: 30%;
-    margin-left: 9%;
-    z-index: 101;
+    margin-left: 12%;
+    display: inline-block;
+  }
+  p {
+    color: white;
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 25%;
+    right: 2%;
   }
 
-  img {
-    width: 40%;
+  .HomeImage {
+    // height: 100vh;
+    height: 105vh;
     position: absolute;
-    top: 13%;
-    left: 15%;
+    z-index: 0;
+    right: 0%;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 5%;
+    bottom: -20%;
   }
 }
