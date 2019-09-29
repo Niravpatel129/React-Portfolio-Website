@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import "./InformationComponent.scss";
 import video from "../../Videos/Tutorial.mp4";
-import font from "../fonts/MaisonNeue-Light.otf";
+import { TweenLite } from "gsap";
 
-console.log(font);
 class InformationComponent extends Component {
   constructor(props) {
     super(props);
@@ -25,9 +24,16 @@ class InformationComponent extends Component {
     }
   }
 
+  componentDidMount() {
+    this.container = this.refs.container;
+    // TweenLite.to(this.container, 1, {
+    //   backgroundColor: "red"
+    // });
+  }
+
   render() {
     return (
-      <div className="InformationComponent">
+      <div className="InformationComponent" ref="container">
         <h1 className="quote">
           Storytelling between parent and child is a fundamental human
           experience that often carry a deeper message that the child can

@@ -12,18 +12,22 @@
   }
 
   li {
-    display: flex;
-    float: left;
+    display: inline;
     font-size: 11px;
-    padding-left: 7%;
+    padding-left: 6%;
     font-family: MaisonNeue-Bold;
     src: url(./MaisonNeue-Bold.otf);
     color: #ffffff;
   }
 
   .updated {
-    padding-right: 480px;
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      padding-right: 50px;
+    }
+    padding-right: 500px;
   }
+
   li a {
     color: white;
     text-align: center;

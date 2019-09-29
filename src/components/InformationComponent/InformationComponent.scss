@@ -11,6 +11,10 @@
   position: relative;
 
   video {
+    @media only screen and (max-width: 768px) {
+      padding-top: 0%;
+      width: 55%;
+    }
     width: 40%;
     padding-top: 6%;
   }
@@ -37,6 +41,10 @@
   }
 
   .quote {
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      padding: 25px;
+    }
     font-family: "MaisonNeue-Light";
     font-weight: normal;
     padding-bottom: 7%;
@@ -52,6 +60,9 @@
     margin: 0 auto;
   }
   .how {
+    @media only screen and (max-width: 768px) {
+      padding-right: 7%;
+    }
     font-family: "MaisonNeue-Light";
     display: inline-block;
     width: 30%;
