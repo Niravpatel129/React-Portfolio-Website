@@ -5,12 +5,14 @@
   h1 {
     color: white;
     font-weight: 210;
-    font-size: 5.2em;
+    font-size: 5.5em;
     position: relative;
     width: 30%;
-    margin-left: 14%;
+    margin-left: 17%;
     display: inline-block;
     font-family: "ogg";
+    line-height: 110px;
+    margin-top: 23px;
   }
   p {
     @media only screen and (max-width: 1000px) {
