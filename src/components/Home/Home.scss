@@ -1,22 +1,25 @@
 .Home {
   background-color: black;
-  padding: 5% 0;
+  padding: 3% 0;
   padding-bottom: 20%;
   h1 {
     color: white;
     font-weight: 210;
-    font-size: 6.2em;
+    font-size: 5.2em;
     position: relative;
     width: 30%;
-    margin-left: 12%;
+    margin-left: 14%;
     display: inline-block;
+    font-family: "ogg";
   }
   p {
     color: white;
     writing-mode: vertical-rl;
     position: absolute;
     top: 25%;
-    right: 2%;
+    right: 6%;
+    font-family: "MaisonNeue-Light";
+    font-size: 12px;
   }
 
   .HomeImage {

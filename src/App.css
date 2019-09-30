@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "MaisonNeue-Light";
+  src: url("/static/media/MaisonNeue-Light.dab2c256.otf");
+}
+
 html {
   width: fit-content;
 }
