@@ -45,7 +45,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Route path="/" exact component={PageOne} />
-        <Route path="/storytale" component={Storytale} />
+        <Route path="/storytale" exact component={Storytale} />
       </BrowserRouter>
     </div>
   );
