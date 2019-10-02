@@ -6,12 +6,12 @@ const Toolbar = props => (
   <div className="Toolbar">
     <ul className={props.theme}>
       <li>
-        <a className="name" href="/">
+        <a href="/" className="name">
           MICHELLE VU
         </a>
       </li>
       <li>
-        <a className="toronto" href="#news">
+        <a href="/storytale" className="toronto">
           TORONTO
         </a>
       </li>
@@ -19,12 +19,12 @@ const Toolbar = props => (
         <a href="/storytale">LAST UPDATED: 07/26/19</a>
       </li>
       <li>
-        <a className="about" href="#about">
+        <a href="/storytale" className="about">
           ABOUT
         </a>
       </li>
       <li>
-        <a className="contact" href="#news">
+        <a href="/storytale" className="contact">
           CONTACT
         </a>
       </li>
