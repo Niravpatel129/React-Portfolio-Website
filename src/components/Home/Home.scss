@@ -42,15 +42,20 @@
   }
 
   .logo {
-    @media only screen and (max-width: 1000px) {
-      /* For mobile phones: */
-      height: 35%;
-      top: 25%;
-    }
+    //   @media only screen and (max-width: 1000px) {
+    //     /* For mobile phones: */
+    //     height: 35%;
+    //     top: 25%;
+    //   }
+    //   width: 100px;
+    //   height: 100px;
+    //   position: absolute;
+    //   right: 5%;
+    //   bottom: -20%;
+    // }
     width: 100px;
-    height: 100px;
-    position: absolute;
+    position: fixed;
+    bottom: 3%;
     right: 5%;
-    bottom: -20%;
   }
 }
