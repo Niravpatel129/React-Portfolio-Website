@@ -24,14 +24,19 @@
   img {
     flex: 0 30%;
     width: 25%;
-    padding-left: 15%;
     padding-top: 4%;
     padding-bottom: 4%;
   }
+
+  img:nth-child(even) {
+    padding-left: 13%;
+  }
+
   .top {
     padding: 0 4px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .bottom {
     padding: 0 4px;
