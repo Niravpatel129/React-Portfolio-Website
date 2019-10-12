@@ -19,6 +19,7 @@
       /* For mobile phones: */
       top: 10%;
     }
+
     color: white;
     writing-mode: vertical-rl;
     position: absolute;
@@ -32,6 +33,11 @@
     @media only screen and (max-width: 1000px) {
       /* For mobile phones: */
       height: 32%;
+      top: 6%;
+    }
+    @media only screen and (max-width: 1400px) {
+      /* For mobile phones: */
+      height: 85%;
       top: 6%;
     }
     display: flex;
