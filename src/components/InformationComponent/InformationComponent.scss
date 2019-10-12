@@ -13,10 +13,10 @@
   video {
     @media only screen and (max-width: 1000px) {
       padding-top: 0%;
-      padding-left: 1%;
       width: 43%;
     }
-    width: 40%;
+    width: 30%;
+    padding-left: 10%;
     padding-top: 6%;
   }
 
@@ -57,8 +57,8 @@
   }
   .videoboxmodel {
     display: flex;
-    padding-left: 11%;
     margin: 0 auto;
+    justify-content: center;
   }
   .how {
     @media only screen and (max-width: 1000px) {
@@ -67,15 +67,11 @@
     font-family: "MaisonNeue-Light";
     display: inline-block;
     width: 30%;
-    padding-right: 22%;
+    // padding-right: 1%;
   }
 
   .videoBoxContainer {
     display: inline;
-  }
-  .videoBox {
-    vertical-align: top;
-    width: 33%;
   }
 
   .bottomblock {
@@ -85,8 +81,8 @@
     padding-left: 9%;
   }
   .paragraph1 {
-    margin-left: 7%;
-    width: 75%;
+    margin-left: 13%;
+    width: 70%;
     font-family: "MaisonNeue-Light";
   }
 
@@ -94,8 +90,7 @@
     h3 {
       padding-bottom: 12%;
     }
-    width: 75%;
-    margin-left: 10%;
+    width: 70%;
     font-family: "MaisonNeue-Light";
   }
 

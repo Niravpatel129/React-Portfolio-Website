@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./InformationComponent.scss";
 import video from "../../Videos/Tutorial.mp4";
-import { TweenLite } from "gsap";
 
 class InformationComponent extends Component {
   constructor(props) {
