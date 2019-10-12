@@ -2,17 +2,18 @@
   background-color: black;
   padding: 3% 0;
   padding-bottom: 7%;
+  height: 100vh;
   h1 {
     color: white;
     font-weight: 210;
-    font-size: 5.5em;
+    font-size: 550%;
     position: relative;
     width: 30%;
-    margin-left: 17%;
+    margin-left: 21%;
     display: inline-block;
     font-family: "ogg";
-    line-height: 110px;
-    margin-top: 23px;
+    line-height: 100px;
+    margin-top: 3.2%;
   }
   p {
     @media only screen and (max-width: 1000px) {
@@ -21,10 +22,10 @@
     }
 
     color: white;
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     position: absolute;
     top: 25%;
-    right: 6%;
+    right: 9.8%;
     font-family: "MaisonNeue-Light";
     font-size: 12px;
   }
@@ -41,7 +42,7 @@
       top: 6%;
     }
     display: flex;
-    height: 105%;
+    height: 100%;
     position: absolute;
     z-index: 0;
     right: 0%;
