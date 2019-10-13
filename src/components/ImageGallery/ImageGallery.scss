@@ -3,11 +3,22 @@
   src: url("/static/media/MaisonNeue-Light.dab2c256.otf");
 }
 
+.carousel .slide {
+  background-color: red;
+}
+
 .ImageGallery {
   background-color: #222222;
   padding: 5% 0;
   color: white;
   font-family: "MaisonNeue-Light";
+
+  .Carousel {
+    margin: 0 auto;
+    padding-bottom: 5%;
+    width: 50%;
+    background: none;
+  }
 
   h4 {
     text-align: left;

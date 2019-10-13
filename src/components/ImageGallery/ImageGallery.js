@@ -4,6 +4,9 @@ import box1 from "./box1.svg";
 import box2 from "./box2.svg";
 import box3 from "./box3.svg";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+
 // import video from "../../Videos/Tutorial.mp4";
 // import ipad from "./Rectangle.svg";
 
@@ -38,9 +41,23 @@ class ImageGallery extends React.Component {
           Visual <br></br>Design
         </h4>
         <img src={box1} alt={box1}></img>
-        <img src={box2} alt={box1}></img>
+        <Carousel
+          showStatus={false}
+          showThumbs={false}
+          className="Carousel"
+          autoPlay
+        >
+          <div>
+            <img src={box2} alt={box1} />
+          </div>
+          <div>
+            <img src={box1} alt={box1} />
+          </div>
+          <div>
+            <img src={box3} alt={box1} />
+          </div>
+        </Carousel>{" "}
         <img src={box3} alt={box3}></img>
-
         {/* <div className={this.playButtonClassNames}>
           <video
             src={video}
