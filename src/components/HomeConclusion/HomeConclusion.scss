@@ -1,0 +1,44 @@
+.HomeConclusion {
+  background-color: black;
+  color: white;
+  padding: 7% 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "MaisonNeue-Light";
+
+  h3 {
+    font-size: 88%;
+  }
+  p {
+    font-size: 88%;
+  }
+  .paragraph1 {
+    padding-left: 5%;
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 5%;
+  }
+
+  .paragraph2 {
+    padding-left: 5%;
+    width: 40%;
+    display: inline-block;
+  }
+
+  .paragraph3 {
+    padding-left: 5%;
+    width: 40%;
+    display: inline-block;
+  }
+
+  .paragraph4 {
+    padding-left: 5%;
+    width: 20%;
+    display: inline-block;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}

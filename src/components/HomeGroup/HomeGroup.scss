@@ -13,7 +13,24 @@
     display: inherit;
     width: 100%;
     text-align: center;
-    padding-left: 8%;
+    padding-left: 8.8%;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .viewcasestudy {
+    display: inherit;
+    position: absolute;
+    left: 54%;
+    font-family: "MaisonNeue-Light";
+    font-size: 18px;
+    margin-top: 35%;
+    border: 1px solid white;
+    line-height: 28px;
+    padding: 9px;
   }
 
   h3 {
@@ -45,7 +62,7 @@
     left: 54%;
     font-family: "MaisonNeue-Light";
     font-size: 18px;
-    padding-top: 27%;
+    padding-top: 24%;
     width: 30%;
     line-height: 28px;
   }

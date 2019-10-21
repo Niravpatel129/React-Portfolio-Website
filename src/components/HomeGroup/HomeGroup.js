@@ -5,6 +5,7 @@ import "./HomeGroup.scss";
 import image1 from "./image1.svg";
 import image2 from "./image2.svg";
 import image3 from "./image3.svg";
+import image4 from "./image4.svg";
 
 class HomeGroup extends Component {
   render() {
@@ -24,6 +25,9 @@ class HomeGroup extends Component {
               An interactive and accessible AR experience that actually deepens
               our engagement with stories.
             </p>
+            <a href="/storytale">
+              <div className="viewcasestudy">VIEW THE CASE STUDY -></div>
+            </a>
           </div>
         </div>
         <div className="SectionBlock">
@@ -41,6 +45,9 @@ class HomeGroup extends Component {
                 a reorgainzed information architecture as the current one is
                 inadequate.
               </p>
+              <a href="/storytale">
+                <div className="viewcasestudy">VIEW THE CASE STUDY -></div>
+              </a>
             </div>{" "}
           </div>
         </div>
@@ -53,12 +60,40 @@ class HomeGroup extends Component {
           </div>
           <div className="title">
             <div className="title">
-              <h1>03 </h1>{" "}
-              <h1 className="titletext">Guelph/ Recreational Site</h1>
+              <h1>03 </h1> <h1 className="titletext">Google Travel App</h1>
               <p>
-                Building an AR website for parents and kids where they can bring
-                stories to life
+                Conceptualizing an app for free going travellers that suggests
+                stops while in the area.
               </p>
+              <a href="/storytale">
+                <div className="viewcasestudy">VIEW THE CASE STUDY -></div>
+              </a>
+            </div>{" "}
+          </div>
+        </div>
+
+        <div className="SectionBlock">
+          <img src={image4} alt="3"></img>
+          <div className="captions">
+            <h3>
+              VISUAL <br></br>DESIGN
+            </h3>
+            <h3 className="ui">CINEMA 4D</h3>
+            <h3>BLENDER</h3>
+          </div>
+          <div className="title">
+            <div className="title">
+              <h1>04 </h1>{" "}
+              <h1 className="titletext">
+                3D <br></br>EXPLORATION
+              </h1>
+              <p>
+                A series of images that pushed my ability to learn programs such
+                as Cinema4d and Blender.
+              </p>
+              <a href="/storytale">
+                <div className="viewcasestudy">VIEW THE CASE STUDY -></div>
+              </a>
             </div>{" "}
           </div>
         </div>
