@@ -13,6 +13,7 @@ import ImageBoxes from "./components/ImageBoxes/ImageBoxes";
 import HomeGroup from "./components/HomeGroup/HomeGroup";
 import HomeConclusion from "./components/HomeConclusion/HomeConclusion";
 import Home from "./components/Home/Home";
+import NextCaseStudy from "./nextCaseStudy/nextCaseStudy";
 
 const PageOne = () => {
   return (
@@ -37,6 +38,7 @@ const Storytale = () => {
       <HexComponent />
       <ImageGallery />
       <ImageBoxes />
+      <NextCaseStudy />
     </div>
   );
 };

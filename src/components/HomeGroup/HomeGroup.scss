@@ -21,18 +21,6 @@
     color: white;
   }
 
-  .viewcasestudy {
-    display: inherit;
-    position: absolute;
-    left: 54%;
-    font-family: Neue Haas Unica W01 Regular;
-    font-size: 18px;
-    margin-top: 35%;
-    border: 1px solid white;
-    line-height: 28px;
-    padding: 9px;
-  }
-
   h3 {
     padding-top: 25%;
     font-family: Neue Haas Unica W01 Regular;
@@ -72,5 +60,25 @@
   }
   .SectionBlock {
     display: flex;
+  }
+
+  .viewcasestudy {
+    display: flex;
+    position: absolute;
+    left: 54%;
+    font-family: Neue Haas Unica W01 Regular;
+    font-size: 18px;
+    margin-top: 35%;
+    border: 1px solid white;
+    line-height: 28px;
+    padding: 9px;
+    padding-left: 2%;
+  }
+
+  .arrow {
+    display: inline-block;
+    width: 13%;
+    padding: 0px;
+    padding-left: 7%;
   }
 }

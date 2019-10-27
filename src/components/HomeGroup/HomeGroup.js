@@ -6,6 +6,7 @@ import image1 from "./image1.svg";
 import image2 from "./image2.svg";
 import image3 from "./image3.svg";
 import image4 from "./image4.svg";
+import arrow from "./arrow.svg";
 
 class HomeGroup extends Component {
   render() {
@@ -26,7 +27,10 @@ class HomeGroup extends Component {
               our engagement with stories.
             </p>
             <a href="/storytale">
-              <div className="viewcasestudy">VIEW THE CASE STUDY -></div>
+              <div className="viewcasestudy">
+                VIEW THE CASE STUDY{" "}
+                <img className="arrow" src={arrow} alt={arrow}></img>
+              </div>{" "}
             </a>
           </div>
         </div>
@@ -46,7 +50,10 @@ class HomeGroup extends Component {
                 inadequate.
               </p>
               <a href="/storytale">
-                <div className="viewcasestudy">VIEW THE CASE STUDY -></div>
+                <div className="viewcasestudy">
+                  VIEW THE CASE STUDY{" "}
+                  <img className="arrow" src={arrow} alt={arrow}></img>
+                </div>
               </a>
             </div>{" "}
           </div>
@@ -66,7 +73,10 @@ class HomeGroup extends Component {
                 stops while in the area.
               </p>
               <a href="/storytale">
-                <div className="viewcasestudy">VIEW THE CASE STUDY -></div>
+                <div className="viewcasestudy">
+                  VIEW THE CASE STUDY{" "}
+                  <img className="arrow" src={arrow} alt={arrow}></img>
+                </div>{" "}
               </a>
             </div>{" "}
           </div>
@@ -92,7 +102,10 @@ class HomeGroup extends Component {
                 as Cinema4d and Blender.
               </p>
               <a href="/storytale">
-                <div className="viewcasestudy">VIEW THE CASE STUDY -></div>
+                <div className="viewcasestudy">
+                  VIEW THE CASE STUDY{" "}
+                  <img className="arrow" src={arrow} alt={arrow}></img>
+                </div>{" "}
               </a>
             </div>{" "}
           </div>
