@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 import "./HomeConclusion.scss";
 class HomeConclusion extends Component {
   constructor(props) {
@@ -18,7 +20,7 @@ class HomeConclusion extends Component {
             Let’s talk at mivuuuu@gmail.com! <br></br>
             <br></br>Click here for my{" "}
             <u>
-              <a href="/">Resume</a>
+              <Link to="/">Resume</Link>
             </u>
           </p>
         </div>

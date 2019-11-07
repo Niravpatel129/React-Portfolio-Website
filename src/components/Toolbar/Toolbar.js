@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Toolbar.scss";
 
@@ -6,27 +7,25 @@ const Toolbar = props => (
   <div className="Toolbar">
     <ul className={props.theme}>
       <li className="name">
-        <a href="/" className="name">
+        <Link to="/" className="name">
           MICHELLE VU
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="/storytale" className="toronto">
-          TORONTO
-        </a>
+        <Link to="/storytale">TORONTO</Link>
       </li>
       <li className="updated">
-        <a href="/storytale">LAST UPDATED: 07/26/19</a>
+        <Link to="/storytale">LAST UPDATED: 07/26/19</Link>
       </li>
       <li className="about">
-        <a href="/storytale" className="about">
+        <Link to="/storytale" className="about">
           ABOUT
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="/storytale" className="contact">
+        <Link to="/storytale" className="contact">
           CONTACT
-        </a>
+        </Link>
       </li>
     </ul>
   </div>

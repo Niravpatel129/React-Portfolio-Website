@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import "./HomeGroup.scss";
 
@@ -26,12 +27,12 @@ class HomeGroup extends Component {
               An interactive and accessible AR experience that actually deepens
               our engagement with stories.
             </p>
-            <a href="/storytale">
+            <Link to="/storytale">
               <div className="viewcasestudy">
                 VIEW THE CASE STUDY{" "}
                 <img className="arrow" src={arrow} alt={arrow}></img>
               </div>{" "}
-            </a>
+            </Link>
           </div>
         </div>
         <div className="SectionBlock">
@@ -49,12 +50,12 @@ class HomeGroup extends Component {
                 a reorgainzed information architecture as the current one is
                 inadequate.
               </p>
-              <a href="/storytale">
+              <Link to="/storytale">
                 <div className="viewcasestudy">
                   VIEW THE CASE STUDY{" "}
                   <img className="arrow" src={arrow} alt={arrow}></img>
                 </div>
-              </a>
+              </Link>
             </div>{" "}
           </div>
         </div>
@@ -72,12 +73,12 @@ class HomeGroup extends Component {
                 Conceptualizing an app for free going travellers that suggests
                 stops while in the area.
               </p>
-              <a href="/storytale">
+              <Link to="/storytale">
                 <div className="viewcasestudy">
                   VIEW THE CASE STUDY{" "}
                   <img className="arrow" src={arrow} alt={arrow}></img>
                 </div>{" "}
-              </a>
+              </Link>
             </div>{" "}
           </div>
         </div>
@@ -101,12 +102,12 @@ class HomeGroup extends Component {
                 A series of images that pushed my ability to learn programs such
                 as Cinema4d and Blender.
               </p>
-              <a href="/storytale">
+              <Link to="/storytale">
                 <div className="viewcasestudy">
                   VIEW THE CASE STUDY{" "}
                   <img className="arrow" src={arrow} alt={arrow}></img>
                 </div>{" "}
-              </a>
+              </Link>
             </div>{" "}
           </div>
         </div>
