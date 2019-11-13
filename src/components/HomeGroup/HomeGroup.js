@@ -6,7 +6,8 @@ import "./HomeGroup.scss";
 import image1 from "./image1.svg";
 import image2 from "./image2.svg";
 import image3 from "./image3.svg";
-import image4 from "./image4.svg";
+import image5 from "./image5.svg";
+
 import arrow from "./arrow.svg";
 
 class HomeGroup extends Component {
@@ -84,7 +85,7 @@ class HomeGroup extends Component {
         </div>
 
         <div className="SectionBlock">
-          <img src={image4} alt="3"></img>
+          <img src={image5} alt="5"></img>
           <div className="captions">
             <h3>
               VISUAL <br></br>DESIGN

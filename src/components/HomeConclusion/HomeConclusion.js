@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 import "./HomeConclusion.scss";
 class HomeConclusion extends Component {
@@ -10,31 +9,23 @@ class HomeConclusion extends Component {
   render() {
     return (
       <div className="HomeConclusion">
-        <div className="paragraph1">
-          <h3>ABOUT</h3>
-          <p>
-            I focus on product design, experiences, and design systems. I’m
-            currently on the lookout for any internship or designer positions.
-            <br></br>
-            <br></br>
-            Let’s talk at mivuuuu@gmail.com! <br></br>
-            <br></br>Click here for my{" "}
-            <u>
-              <Link to="/">Resume</Link>
-            </u>
+        <div className="about">
+          I focus on product design, experiences, and visual design. Am
+          currently seeking internships or possible design positions. <br></br>
+          <br></br>
+          <p className="letstalk">
+            Let’s talk at mivuuuu@gmail.com! Click here for my <u>resume</u>
           </p>
         </div>
 
-        <div className="paragraph2">
-          <h3>EXPERIENCES</h3>
+        <div className="paragraph4">
+          <h3>EDUCATION</h3>
           <p>
-            I have currently finished a design internship @ WE3 (Jam3). Before
-            that, I've had done minor Freelance work for Jam3 and had the
-            pleasure of interning The Garden Collective.
+            York University & Sheridan College Joint Program in Design
             <br></br>
             <br></br>
-            If you'd like to chat, or better yet, profess your undying love for
-            dogs, please get in touch.
+            &nbsp; Bachelor of Design with Honours (BDes) <br></br>
+            <br></br>Fall 2014 - Fall 2019
           </p>
         </div>
 
@@ -50,16 +41,6 @@ class HomeConclusion extends Component {
             SketchFab
             <br></br>
             Are.Na
-          </p>
-        </div>
-
-        <div className="paragraph4">
-          <h3>EDUCATION</h3>
-          <p>
-            York University & Sheridan College Joint Program in Design
-            <br></br>
-            <br></br>
-            &nbsp; Bachelor of Design with Honours (BDes)
           </p>
         </div>
       </div>
