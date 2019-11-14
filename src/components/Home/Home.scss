@@ -4,6 +4,14 @@
   padding-bottom: 7%;
   height: 100vh;
   h1 {
+    @media screen and (min-width: 1500px) {
+      // big desktop
+      color: white;
+      width: 20%;
+      line-height: 130px;
+      font-size: 690%;
+      margin-left: 26%;
+    }
     color: white;
     font-weight: 210;
     font-size: 550%;
