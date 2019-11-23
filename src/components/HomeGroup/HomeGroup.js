@@ -51,7 +51,7 @@ class HomeGroup extends Component {
                 a reorgainzed information architecture as the current one is
                 inadequate.
               </p>
-              <Link to="/storytale">
+              <Link to="/recreation">
                 <div className="viewcasestudy">
                   VIEW THE CASE STUDY{" "}
                   <img className="arrow" src={arrow} alt={arrow}></img>
