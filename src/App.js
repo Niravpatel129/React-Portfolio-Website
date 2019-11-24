@@ -1,5 +1,6 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from "react";
+
+import "./App.scss";
 import { BrowserRouter, Route } from "react-router-dom";
 import Toolbar from "./components/Toolbar/Toolbar";
 import FullScreenMedia from "./components/FullScreenMedia/FullScreenMedia";
@@ -69,16 +70,51 @@ const RecreationCaseStudy = () => {
   );
 };
 
-function App() {
-  return (
-    <div>
-      <BrowserRouter>
-        <Route path="/" exact component={PageOne} />
-        <Route path="/storytale" exact component={Storytale} />
-        <Route path="/recreation" exact component={RecreationCaseStudy} />
-      </BrowserRouter>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      Loaded: false
+    };
+  }
+
+  componentDidMount() {
+    this.Loaded();
+  }
+
+  Loaded() {
+    setInterval(() => {
+      this.setState({ Loaded: true });
+    }, 2000);
+  }
+
+  render() {
+    if (this.state.Loaded) {
+      return (
+        <div>
+          <BrowserRouter>
+            <div className="App">
+              <Route path="/" exact component={PageOne} />
+              <Route path="/storytale" exact component={Storytale} />
+              <Route path="/recreation" exact component={RecreationCaseStudy} />
+            </div>
+          </BrowserRouter>
+        </div>
+      );
+    } else {
+      return (
+        <div className="LoadingSpinner">
+          <div className="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>{" "}
+        </div>
+      );
+    }
+  }
 }
 
 export default App;
