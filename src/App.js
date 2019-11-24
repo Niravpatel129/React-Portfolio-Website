@@ -40,7 +40,7 @@ const PageOne = () => {
 const Storytale = () => {
   return (
     <div className="Storytale">
-      <Toolbar theme="light" />
+      <Toolbar theme="dark" />
       <FullScreenMedia />
       <QuoteSection />
       <VideoSection />
