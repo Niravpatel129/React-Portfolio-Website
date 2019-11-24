@@ -80,6 +80,7 @@ class App extends Component {
   }
 
   componentDidMount() {
+    // fake loading here
     this.Loaded();
   }
 
