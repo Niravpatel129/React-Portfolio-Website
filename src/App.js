@@ -20,6 +20,7 @@ import RecreationTextBlock from "./components/RecreationTextBlock/RecreationText
 import RecreationFullScreenMedia from "./components/RecreationFullScreenMedia/RecreationFullScreenMedia"; // todo
 import RecreationTwoColumnsText from "./components/RecreationTwoColumnsText/RecreationTwoColumnsText"; // todo
 import RecreationPactAnalysis from "./components/RecreationPactAnalysis/RecreationPactAnalysis"; // todo
+import RecreationVisualDesign from "./components/RecreationVisualDesign/RecreationVisualDesign"; // todo
 
 import imageSoruce from "./globalAssets/images/imageAsset1.svg";
 import imageSoruce2 from "./globalAssets/images/imageAsset2.svg";
@@ -62,6 +63,7 @@ const RecreationCaseStudy = () => {
       <RecreationTwoColumnsText />
       <RecreationFullScreenMedia image={imageSoruce2} />
       <RecreationPactAnalysis />
+      <RecreationVisualDesign />
     </div>
   );
 };
