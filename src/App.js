@@ -64,6 +64,7 @@ const RecreationCaseStudy = () => {
       <RecreationFullScreenMedia image={imageSoruce2} />
       <RecreationPactAnalysis />
       <RecreationVisualDesign />
+      <NextCaseStudy theme="dark" />
     </div>
   );
 };

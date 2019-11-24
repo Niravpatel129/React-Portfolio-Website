@@ -1,2 +1,16 @@
 .RecreationVisualDesign {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  color: white;
+
+  h4 {
+    width: 80%;
+  }
+
+  img {
+    width: 80%;
+    padding-bottom: 5%;
+  }
 }
