@@ -10,7 +10,8 @@ class RecreationPactAnalysis extends Component {
     return (
       <div className="RecreationPactAnalysis">
         <h3 className="title">
-          P.A.C.T <br></br>Analysis
+          P.A.C.T <br />
+          Analysis
         </h3>
 
         <div className="block">
