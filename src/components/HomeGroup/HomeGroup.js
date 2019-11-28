@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 import "./HomeGroup.scss";
 
-import image1 from "./image1.svg";
-import image2 from "./image2.svg";
-import image3 from "./image3.svg";
-import image5 from "./image5.svg";
+import image1 from "./Thumbnail-1.jpg";
+import image2 from "./Thumbnail-2.jpg";
+import image3 from "./Thumbnail-3.jpg";
+import image5 from "./Thumbnail-4.jpg";
 
 import arrow from "./arrow.svg";
 
