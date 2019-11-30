@@ -85,7 +85,7 @@ class App extends Component {
   }
 
   Loaded() {
-    setInterval(() => {
+    setTimeout(() => {
       this.setState({ Loaded: true });
     }, 2000);
   }
