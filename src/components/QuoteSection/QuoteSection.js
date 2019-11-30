@@ -42,14 +42,14 @@ class QuoteSection extends Component {
         </div>
         <div className="typeboxes">
           <div className="typebox1">
-            <h3>1. OPPROTUNITIES</h3>
+            <h3>1. OPPORTUNITIES</h3>
             <p>
               Building an experience that blends analog and digital in a clever
               and meaningful way.
             </p>
           </div>
           <div className="typebox2">
-            <h3>2. ENGAGMENT</h3>
+            <h3>2. ENGAGEMENT</h3>
             <p>
               Create a storytelling experience that allows families to have a
               deeper connection with stories by engaging more of their senses.
