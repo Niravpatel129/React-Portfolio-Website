@@ -95,10 +95,7 @@ class HomeGroup extends Component {
           </div>
           <div className="title">
             <div className="title">
-              <h1>04 </h1>{" "}
-              <h1 className="titletext">
-                3D <br></br>EXPLORATION
-              </h1>
+              <h1>04 </h1> <h1 className="titletext">3D EXPLORATION</h1>
               <p>
                 A series of images that pushed my ability to learn programs such
                 as Cinema4d and Blender.
