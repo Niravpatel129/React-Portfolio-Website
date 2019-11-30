@@ -15,6 +15,7 @@ import HomeGroup from "./components/HomeGroup/HomeGroup";
 import HomeConclusion from "./components/HomeConclusion/HomeConclusion";
 import Home from "./components/Home/Home";
 import NextCaseStudy from "./nextCaseStudy/nextCaseStudy";
+import UpdatedUserFlow from "./components/UpdatedUserFlow/UpdatedUserFlow";
 
 import RecreationTitlePage from "./components/RecreationTitlePage/RecreationTitlePage"; // todo
 import RecreationTextBlock from "./components/RecreationTextBlock/RecreationTextBlock"; // todo
@@ -45,7 +46,8 @@ const Storytale = () => {
       <QuoteSection />
       <VideoSection />
       <InformationComponent />
-      <Userflow />
+      {/* <Userflow /> */}
+      <UpdatedUserFlow />
       <HexComponent />
       <ImageGallery />
       <ImageBoxes />

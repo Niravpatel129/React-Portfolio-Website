@@ -2,12 +2,12 @@ import React, { Component } from "react";
 
 import "./ImageBoxes.scss";
 
-import Wolf1 from "./Wolf3.svg";
-import Wolf2 from "./Wolf4.svg";
-import Land1 from "./land1.svg";
-import Land2 from "./land2.svg";
-import Pig1 from "./Pig3.svg";
-import Pig2 from "./Pig4.svg";
+import Wolf1 from "./storytale-wolf.1.jpg";
+import Wolf2 from "./storytale-wolf.2.jpg";
+import Land1 from "./storytale-pigscene.jpg";
+import Land2 from "./storytale-wolfscene.jpg";
+import Pig1 from "./storytale-pig.1.jpg";
+import Pig2 from "./storytale-pig.2.jpg";
 
 class ImageBoxes extends Component {
   render() {

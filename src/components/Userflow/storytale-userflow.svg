@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1030px" height="116px" viewBox="0 0 1030 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="StoryTale" transform="translate(-193.000000, -3733.000000)">
+            <g id="Section-Three" transform="translate(193.000000, 3591.000000)">
+                <g id="Group" transform="translate(0.000000, 142.000000)">
+                    <rect id="Rectangle-Copy-27" stroke="#FFFFFF" fill="#000000" fill-rule="nonzero" x="0.5" y="0.5" width="165" height="115"></rect>
+                    <text id="VISIT-HOME-PAGE" font-family="NeueHaasUnicaPro-Regular, Neue Haas Unica Pro" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="33.166" y="63">VISIT HOME PAGE</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-28" stroke="#FFFFFF" fill="#000000" fill-rule="nonzero" x="432.5" y="0.5" width="165" height="115"></rect>
+                    <text id="REQUESTS-MICROPHONE" font-family="NeueHaasUnicaPro-Regular, Neue Haas Unica Pro" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="484.808" y="45">REQUESTS </tspan>
+                        <tspan x="460.454" y="63">MICROPHONE AND </tspan>
+                        <tspan x="465.344" y="81">CAMERA ACCESS</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-29" stroke="#FFFFFF" fill="#000000" fill-rule="nonzero" x="216.5" y="0.5" width="165" height="115"></rect>
+                    <text id="SELECT-STORY-FROM-LI" font-family="NeueHaasUnicaPro-Regular, Neue Haas Unica Pro" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="257.758" y="54">SELECT STORY </tspan>
+                        <tspan x="257.026" y="72">FROM LIBRARY</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-30" stroke="#FFFFFF" fill="#000000" fill-rule="nonzero" x="648.5" y="0.5" width="165" height="115"></rect>
+                    <rect id="Rectangle-Copy-31" stroke="#FFFFFF" fill="#000000" fill-rule="nonzero" x="864.5" y="0.5" width="165" height="115"></rect>
+                    <text id="FIND-SURFACE-IN-ORDE" font-family="NeueHaasUnicaPro-Regular, Neue Haas Unica Pro" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="681.452" y="45">FIND SURFACE IN </tspan>
+                        <tspan x="675.308" y="63">ORDER TO PROJECT </tspan>
+                        <tspan x="712.532" y="81">STORY</tspan>
+                    </text>
+                    <text id="START-READING-STORY" font-family="NeueHaasUnicaPro-Regular, Neue Haas Unica Pro" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="901.532" y="45">START READING </tspan>
+                        <tspan x="890.276" y="63">STORY IN ORDER TO </tspan>
+                        <tspan x="918.356" y="81">INTERACT</tspan>
+                    </text>
+                    <path d="M166,58.5 L216,58.5" id="Path-9-Copy-8" stroke="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M598,58.5 L648,58.5" id="Path-9-Copy-9" stroke="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M814,58.5 L864,58.5" id="Path-9-Copy-11" stroke="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M381,58.5 L432,58.5" id="Path-9-Copy-10" stroke="#FFFFFF" fill-rule="nonzero"></path>
+                    <circle id="Oval-Copy-5" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" cx="205" cy="58" r="3"></circle>
+                    <circle id="Oval-Copy-6" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" cx="637" cy="58" r="3"></circle>
+                    <circle id="Oval-Copy-8" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" cx="853" cy="58" r="3"></circle>
+                    <circle id="Oval-Copy-7" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" cx="420" cy="58" r="3"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
