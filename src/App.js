@@ -7,7 +7,6 @@ import FullScreenMedia from "./components/FullScreenMedia/FullScreenMedia";
 import QuoteSection from "./components/QuoteSection/QuoteSection";
 import VideoSection from "./components/VideoSection/VideoSection";
 import InformationComponent from "./components/InformationComponent/InformationComponent";
-import Userflow from "./components/Userflow/Userflow";
 import HexComponent from "./components/HexComponent/HexComponent";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import ImageBoxes from "./components/ImageBoxes/ImageBoxes";
@@ -46,7 +45,6 @@ const Storytale = () => {
       <QuoteSection />
       <VideoSection />
       <InformationComponent />
-      {/* <Userflow /> */}
       <UpdatedUserFlow />
       <HexComponent />
       <ImageGallery />
