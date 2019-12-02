@@ -25,12 +25,14 @@ import RecreationVisualDesign from "./components/RecreationVisualDesign/Recreati
 
 import imageSoruce from "./globalAssets/images/imageAsset1.svg";
 import imageSoruce2 from "./globalAssets/images/imageAsset2.svg";
+import HomeAbout from "./components/HomeAbout/HomeAbout";
 
 const PageOne = () => {
   return (
     <div className="HomePage">
       <Toolbar theme="dark" />
       <Home />
+      <HomeAbout />
       <HomeGroup />
       <HomeConclusion />
     </div>

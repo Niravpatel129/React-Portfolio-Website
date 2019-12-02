@@ -1,0 +1,17 @@
+.HomeAbout {
+  display: flex;
+  color: white;
+  font-family: "Ogg";
+  background-color: black;
+  justify-content: center;
+  p {
+    width: 88%;
+    font-size: 30px;
+  }
+  .underlined {
+    text-decoration: underline;
+  }
+  .small {
+    font-size: 19px;
+  }
+}
