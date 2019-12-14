@@ -27,6 +27,9 @@ import imageSoruce from "./globalAssets/images/imageAsset1.svg";
 import imageSoruce2 from "./globalAssets/images/imageAsset2.svg";
 import HomeAbout from "./components/HomeAbout/HomeAbout";
 
+import { connect } from "react-redux";
+import { setLoadingSpinner } from "./actions";
+
 const PageOne = () => {
   return (
     <div className="HomePage">
@@ -88,12 +91,12 @@ class App extends Component {
 
   Loaded() {
     setTimeout(() => {
-      this.setState({ Loaded: true });
+      this.props.setLoadingSpinner(true);
     }, 2000);
   }
 
   render() {
-    if (this.state.Loaded) {
+    if (this.props.currentSpinnerMode) {
       return (
         <div>
           <BrowserRouter>
@@ -120,4 +123,10 @@ class App extends Component {
   }
 }
 
-export default App;
+const mapStateToProps = state => {
+  return {
+    currentSpinnerMode: state.currentSpinnerMode
+  };
+};
+
+export default connect(mapStateToProps, { setLoadingSpinner })(App);
