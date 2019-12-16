@@ -36,13 +36,15 @@ class HomeConclusion extends Component {
         <div className="paragraph3">
           <h3>ELSEWHERE</h3>
           <p>
-            Instagram
+            <a href="https://www.instagram.com/mivuvu/">Instagram</a>
             <br></br>
-            LinkedIn
+            <a href="https://www.linkedin.com/in/michelle-vu-062953139/">
+              LinkedIn
+            </a>
             <br></br>
-            Dribbble
+            <a href="https://dribbble.com/mivuu">Dribbble</a>
             <br></br>
-            Behance
+            <a href="https://www.behance.net/michellevuu">Behance</a>
           </p>
         </div>
       </div>
