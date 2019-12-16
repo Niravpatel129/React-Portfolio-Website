@@ -34,7 +34,12 @@ class HomeGroup extends Component {
               An interactive and accessible AR experience that actually deepens
               our engagement with stories.
             </p>
-            <Link to="/storytale">
+            <Link
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+              to="/storytale"
+            >
               <div className="viewcasestudy">
                 VIEW THE CASE STUDY{" "}
                 <img className="arrow" src={arrow} alt={arrow}></img>
@@ -62,7 +67,12 @@ class HomeGroup extends Component {
                 a reorgainzed information architecture as the current one is
                 inadequate.
               </p>
-              <Link to="/recreation">
+              <Link
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                to="/recreation"
+              >
                 <div className="viewcasestudy">
                   VIEW THE CASE STUDY{" "}
                   <img className="arrow" src={arrow} alt={arrow}></img>
@@ -90,7 +100,12 @@ class HomeGroup extends Component {
                 Conceptualizing an app for free going travellers that suggests
                 stops while in the area.
               </p>
-              <Link to="/storytale">
+              <Link
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                to="/"
+              >
                 <div
                   style={{ "padding-right": "35px" }}
                   className="viewcasestudy"
@@ -121,7 +136,12 @@ class HomeGroup extends Component {
                 A series of images that pushed my ability to learn programs such
                 as Cinema4d and Blender.
               </p>
-              <Link to="/exploration">
+              <Link
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                to="/exploration"
+              >
                 <div className="viewcasestudy">
                   VIEW THREE DEE{" "}
                   <img className="arrow" src={arrow} alt={arrow}></img>
