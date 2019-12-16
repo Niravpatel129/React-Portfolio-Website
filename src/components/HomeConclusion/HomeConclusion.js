@@ -10,11 +10,12 @@ class HomeConclusion extends Component {
     return (
       <div className="HomeConclusion">
         <div className="about">
-          I focus on product design, experiences, and visual design. Am
-          currently seeking internships or possible design positions. <br></br>
-          <br></br>
+          I focus on product design, <br></br>experiences, and visual design.
+          <br></br> Am currently seeking internships or possible design
+          positions. <br></br>
           <p className="letstalk">
-            Let’s talk at mivuuuu@gmail.com! Click here for my <u>resume</u>
+            Let’s talk at mivuuuu@gmail.com! <br></br>Click here for my{" "}
+            <u>resume</u>
           </p>
         </div>
 
@@ -24,7 +25,10 @@ class HomeConclusion extends Component {
             York University & Sheridan College Joint Program in Design
             <br></br>
             <br></br>
-            &nbsp; Bachelor of Design with Honours (BDes) <br></br>
+            <span className="bach">
+              Bachelor of Design with Honours (BDes)
+            </span>{" "}
+            <br></br>
             <br></br>Fall 2014 - Fall 2019
           </p>
         </div>
@@ -38,9 +42,7 @@ class HomeConclusion extends Component {
             <br></br>
             Dribbble
             <br></br>
-            SketchFab
-            <br></br>
-            Are.Na
+            Behance
           </p>
         </div>
       </div>
