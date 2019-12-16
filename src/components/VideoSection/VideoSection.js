@@ -26,19 +26,14 @@ class VideoSection extends Component {
   render() {
     return (
       <div className="VideoSection">
-        <video
-          loop={true}
-          className="videoBoxComponent"
-          ref="vidRef"
-          onClick={this.playVideo.bind(this)}
-        >
-          <source src={video} type="video/mp4" />
-        </video>
-        <div
-          className={this.playButtonClassNames}
-          ref="vidButtonRef"
-          onClick={this.playVideo.bind(this)}
-        ></div>
+        <iframe
+          src="https://player.vimeo.com/video/355413664"
+          width="640"
+          height="480"
+          frameBorder="0"
+          allow="autoplay; fullscreen"
+          allowFullScreen
+        ></iframe>
       </div>
     );
   }
