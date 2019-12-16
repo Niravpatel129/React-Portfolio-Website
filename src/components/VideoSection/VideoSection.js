@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import video from "../../Videos/Tutorial.mp4";
 import "./VideoSection.scss";
 
 class VideoSection extends Component {
@@ -27,6 +26,7 @@ class VideoSection extends Component {
     return (
       <div className="VideoSection">
         <iframe
+          title="video"
           src="https://player.vimeo.com/video/355413664"
           width="640"
           height="480"
