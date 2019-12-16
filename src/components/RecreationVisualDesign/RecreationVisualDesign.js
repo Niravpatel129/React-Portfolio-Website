@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 import "./RecreationVisualDesign.scss";
-import image1 from "./GuelphRec.png";
-import image2 from "./GuelphRec2.png";
-import image3 from "./GuelphRec3.png";
+import image1 from "./recreation.3.jpg";
+import image2 from "./recreation.4.jpg";
+import image3 from "./recreation.5.jpg";
 
 class RecreationVisualDesign extends Component {
   constructor(props) {
