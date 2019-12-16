@@ -27,6 +27,7 @@ import imageSoruce from "./globalAssets/images/imageAsset1.svg";
 import imageSoruce2 from "./globalAssets/images/imageAsset2.svg";
 import HomeAbout from "./components/HomeAbout/HomeAbout";
 
+import ExplorationTitle from "./components/ExplorationTitle/ExplorationTitle";
 import Vimeo from "./components/Vimeo/Vimeo";
 
 import header from "./globalAssets/images/exploration/3d-header.jpg";
@@ -35,6 +36,7 @@ import image2 from "./globalAssets/images/exploration/3d-image2.jpg";
 import image3 from "./globalAssets/images/exploration/3d-image3.jpg";
 import image4 from "./globalAssets/images/exploration/3d-image4.jpg";
 import image5 from "./globalAssets/images/exploration/3d-image5.jpg";
+import image6 from "./globalAssets/images/exploration/3d-image6.jpg";
 
 import { connect } from "react-redux";
 import { setLoadingSpinner } from "./actions";
@@ -89,6 +91,7 @@ const Exploration3d = () => {
     <div className="Exploration">
       <Toolbar theme="dark" />
       <FullScreenMedia imageProp={header} />
+      <ExplorationTitle />
       <RecreationFullScreenMedia imageProp={image1} />
       <RecreationFullScreenMedia imageProp={image2} />{" "}
       <Vimeo URL="https://player.vimeo.com/video/265523385" />
@@ -96,6 +99,7 @@ const Exploration3d = () => {
       <RecreationFullScreenMedia imageProp={image4} />
       <Vimeo URL="https://player.vimeo.com/video/379862200" />
       <RecreationFullScreenMedia imageProp={image5} />
+      <RecreationFullScreenMedia imageProp={image6} />
       <NextCaseStudy />
     </div>
   );
