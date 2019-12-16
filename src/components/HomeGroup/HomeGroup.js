@@ -27,7 +27,9 @@ class HomeGroup extends Component {
           </div>
           <div className="title">
             <h1>01 </h1>{" "}
-            <h1 className="titletext">StoryTale// Interactive Storytelling</h1>
+            <h1 className="titletext">
+              StoryTale - <br></br>Interactive Storytelling
+            </h1>
             <p>
               An interactive and accessible AR experience that actually deepens
               our engagement with stories.
