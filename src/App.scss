@@ -1,23 +1,25 @@
-@font-face {
-  font-family: "MaisonNeue-Light";
-  src: url("/static/media/MaisonNeue-Light.dab2c256.otf");
-}
-
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=149f4e11-5936-4ed1-8bbf-fdbe5ba2e057&fontids=1491988");
 @font-face {
   font-family: "Neue Haas Unica W01 Regular";
   src: url("Fonts/1491988/0ebd7648-5847-404a-a88a-28a353c0921c.eot?#iefix");
   src: url("Fonts/1491988/0ebd7648-5847-404a-a88a-28a353c0921c.eot?#iefix")
       format("eot"),
-    url("Fonts/1491988/e0d80810-f7e3-4fea-8c57-ef8116f0465d.woff2")
+    url("newFonts/1491988/e0d80810-f7e3-4fea-8c57-ef8116f0465d.woff2")
       format("woff2"),
-    url("Fonts/1491988/27645c8a-608b-4abf-a2f1-c4407b576723.woff")
+    url("newFonts/1491988/27645c8a-608b-4abf-a2f1-c4407b576723.woff")
       format("woff"),
-    url("Fonts/1491988/bd3b3439-8eff-445c-80ed-87064138ca7d.ttf")
+    url("newFonts/1491988/bd3b3439-8eff-445c-80ed-87064138ca7d.ttf")
       format("truetype");
+}
+
+@font-face {
+  font-family: "Ogg-Roman";
+  src: url("newFonts/1491988/0ebd7648-5847-404a-a88a-28a353c0921c.eot?#iefix");
 }
 
 html {
   width: fit-content;
+  font-family: "Neue Haas Unica W01 Regular";
 }
 
 .PageThree {
