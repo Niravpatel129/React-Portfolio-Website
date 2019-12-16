@@ -91,9 +91,11 @@ class HomeGroup extends Component {
                 stops while in the area.
               </p>
               <Link to="/storytale">
-                <div className="viewcasestudy">
-                  VIEW THE CASE STUDY{" "}
-                  <img className="arrow" src={arrow} alt={arrow}></img>
+                <div
+                  style={{ "padding-right": "35px" }}
+                  className="viewcasestudy"
+                >
+                  COMING SOON !!
                 </div>{" "}
               </Link>
             </div>{" "}
