@@ -40,7 +40,9 @@ class InformationComponent extends Component {
         </h1>
         <div className="videoboxmodel">
           <div className="how">
-            <h3>How</h3>
+            <h3>
+              The <br></br>Problem
+            </h3>
             <p>
               The experience takes place between a parent and their child on a
               tablet. The parent or child selects a story they want to read from
@@ -65,7 +67,9 @@ class InformationComponent extends Component {
         </div>
         <div className="bottomblock">
           <div className="paragraph1">
-            <h3>Augmented Reality</h3>
+            <h3>
+              Augmented <br></br>Reality
+            </h3>
             <p>
               There is a narrative potential in using AR to tell stories. Rather
               than having stories take shape in a book, the story is instead
@@ -74,7 +78,9 @@ class InformationComponent extends Component {
             </p>
           </div>
           <div className="paragraph2">
-            <h3>Voice Recognition</h3>
+            <h3>
+              Voice <br></br>Recognition
+            </h3>
             <p>
               Allows for the parents to be apart of the story experience with
               their child. Dictation can also help kids who struggle with

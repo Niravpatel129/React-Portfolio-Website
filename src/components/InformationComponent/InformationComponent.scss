@@ -10,6 +10,15 @@
   color: white;
   position: relative;
 
+  h3 {
+    line-height: 21px;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
   video {
     @media only screen and (max-width: 1000px) {
       padding-top: 0%;
@@ -21,9 +30,8 @@
   }
 
   h3 {
-    font-family: Neue Haas Unica W01 Regular;
     font-size: 14px;
-    padding-bottom: 13%;
+    // padding-bottom: 13%;
   }
 
   .newplaybutton {
@@ -77,7 +85,7 @@
   .bottomblock {
     display: grid;
     grid-template-columns: auto auto;
-    padding-top: 10%;
+    padding-top: 8%;
     padding-left: 9%;
   }
   .paragraph1 {
@@ -88,7 +96,7 @@
 
   .paragraph2 {
     h3 {
-      padding-bottom: 12%;
+      // padding-bottom: 12%;
     }
     width: 70%;
     font-family: Neue Haas Unica W01 Regular;
