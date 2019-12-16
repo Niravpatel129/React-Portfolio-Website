@@ -16,12 +16,12 @@ import Home from "./components/Home/Home";
 import NextCaseStudy from "./nextCaseStudy/nextCaseStudy";
 import UpdatedUserFlow from "./components/UpdatedUserFlow/UpdatedUserFlow";
 
-import RecreationTitlePage from "./components/RecreationTitlePage/RecreationTitlePage"; // todo
-import RecreationTextBlock from "./components/RecreationTextBlock/RecreationTextBlock"; // todo
-import RecreationFullScreenMedia from "./components/RecreationFullScreenMedia/RecreationFullScreenMedia"; // todo
-import RecreationTwoColumnsText from "./components/RecreationTwoColumnsText/RecreationTwoColumnsText"; // todo
-import RecreationPactAnalysis from "./components/RecreationPactAnalysis/RecreationPactAnalysis"; // todo
-import RecreationVisualDesign from "./components/RecreationVisualDesign/RecreationVisualDesign"; // todo
+import RecreationTitlePage from "./components/RecreationTitlePage/RecreationTitlePage";
+import RecreationTextBlock from "./components/RecreationTextBlock/RecreationTextBlock";
+import RecreationFullScreenMedia from "./components/RecreationFullScreenMedia/RecreationFullScreenMedia";
+import RecreationTwoColumnsText from "./components/RecreationTwoColumnsText/RecreationTwoColumnsText";
+import RecreationPactAnalysis from "./components/RecreationPactAnalysis/RecreationPactAnalysis";
+import RecreationVisualDesign from "./components/RecreationVisualDesign/RecreationVisualDesign";
 
 import imageSoruce from "./globalAssets/images/imageAsset1.svg";
 import imageSoruce2 from "./globalAssets/images/imageAsset2.svg";

@@ -17,7 +17,11 @@ class RecreationTitlePage extends Component {
   render() {
     return (
       <div className="RecreationTitlePage">
-        <img className="TitlePage" src={image} alt={image} />
+        <img
+          className="TitlePage"
+          src={this.props.image || image}
+          alt={this.props.image || image}
+        />
       </div>
     );
   }

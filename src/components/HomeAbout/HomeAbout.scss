@@ -13,8 +13,15 @@
     }
     width: 88%;
     font-size: 30px;
+
+    @media screen and (min-width: 421px) and (max-width: 1200px) {
+      font-size: 27px;
+    }
   }
   .underlined {
+    @media screen and (min-width: 421px) and (max-width: 1200px) {
+      font-size: 27px;
+    }
     text-decoration: underline;
     font-family: "Ogg";
   }
@@ -24,5 +31,9 @@
 
   a {
     color: white;
+  }
+
+  a:hover {
+    opacity: 0.5;
   }
 }

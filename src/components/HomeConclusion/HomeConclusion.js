@@ -8,7 +8,7 @@ class HomeConclusion extends Component {
   }
   render() {
     return (
-      <div className="HomeConclusion">
+      <div className="HomeConclusion" id="HomeConclusion">
         <div className="about">
           I focus on product design, <br></br>experiences, and visual design.
           <br></br> Am currently seeking internships or possible design

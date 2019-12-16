@@ -17,8 +17,13 @@ const Toolbar = props => (
       <li className="updated">
         <Link to="/storytale">LAST UPDATED: 07/26/19</Link>
       </li>
-      <li className="about">
-        <Link to="/storytale" className="about">
+      <li
+        onClick={() => {
+          // scrollToComponent(this.refs.name);
+        }}
+        className="about"
+      >
+        <Link to="#HomeConclusion" className="about">
           ABOUT
         </Link>
       </li>
