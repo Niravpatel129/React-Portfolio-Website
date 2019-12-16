@@ -10,7 +10,7 @@ class Home extends Component {
       <div className="Home">
         <img className="HomeImage" src={homeImage} alt={homeImage}></img>
 
-        <h1>I’M AN INTERAC-TION AND VISUAL DESIGNER</h1>
+        <h1>INTER-ACTION & VISUAL DESIGN-ER</h1>
         <p>last updated: 07/26/19</p>
         <img className="logo" src={Logo} alt={Logo}></img>
       </div>

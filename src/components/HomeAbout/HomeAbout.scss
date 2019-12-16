@@ -5,7 +5,11 @@
   background-color: black;
   justify-content: center;
   padding: 5% 0;
+  padding-top: 0;
   p {
+    @media screen and (max-width: 1680px) {
+      background-color: red;
+    }
     width: 88%;
     font-size: 30px;
   }
