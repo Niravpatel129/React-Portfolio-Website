@@ -10,7 +10,7 @@ class FullScreenMedia extends Component {
   render() {
     return (
       <div className="FullScreenMedia">
-        <img src={header} alt="header"></img>
+        <img src={this.props.imageProp || header} alt="header"></img>
       </div>
     );
   }

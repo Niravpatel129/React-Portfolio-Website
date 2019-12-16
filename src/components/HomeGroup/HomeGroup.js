@@ -119,7 +119,7 @@ class HomeGroup extends Component {
                 A series of images that pushed my ability to learn programs such
                 as Cinema4d and Blender.
               </p>
-              <Link to="/storytale">
+              <Link to="/exploration">
                 <div className="viewcasestudy">
                   VIEW THREE DEE{" "}
                   <img className="arrow" src={arrow} alt={arrow}></img>

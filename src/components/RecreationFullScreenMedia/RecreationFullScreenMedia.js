@@ -10,7 +10,7 @@ class RecreationFullScreenMedia extends Component {
     const { image } = this.props;
     return (
       <div className="RecreationFullScreenMedia">
-        <img src={image} alt={image} />
+        <img src={this.props.imageProp || image} alt={image} />
       </div>
     );
   }

@@ -27,6 +27,15 @@ import imageSoruce from "./globalAssets/images/imageAsset1.svg";
 import imageSoruce2 from "./globalAssets/images/imageAsset2.svg";
 import HomeAbout from "./components/HomeAbout/HomeAbout";
 
+import Vimeo from "./components/Vimeo/Vimeo";
+
+import header from "./globalAssets/images/exploration/3d-header.jpg";
+import image1 from "./globalAssets/images/exploration/3d-image1.jpg";
+import image2 from "./globalAssets/images/exploration/3d-image2.jpg";
+import image3 from "./globalAssets/images/exploration/3d-image3.jpg";
+import image4 from "./globalAssets/images/exploration/3d-image4.jpg";
+import image5 from "./globalAssets/images/exploration/3d-image5.jpg";
+
 import { connect } from "react-redux";
 import { setLoadingSpinner } from "./actions";
 
@@ -75,6 +84,23 @@ const RecreationCaseStudy = () => {
   );
 };
 
+const Exploration3d = () => {
+  return (
+    <div className="Exploration">
+      <Toolbar theme="dark" />
+      <FullScreenMedia imageProp={header} />
+      <RecreationFullScreenMedia imageProp={image1} />
+      <RecreationFullScreenMedia imageProp={image2} />{" "}
+      <Vimeo URL="https://player.vimeo.com/video/265523385" />
+      <RecreationFullScreenMedia imageProp={image3} />
+      <RecreationFullScreenMedia imageProp={image4} />
+      <Vimeo URL="https://player.vimeo.com/video/379862200" />
+      <RecreationFullScreenMedia imageProp={image5} />
+      <NextCaseStudy />
+    </div>
+  );
+};
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -104,6 +130,7 @@ class App extends Component {
               <Route path="/" exact component={PageOne} />
               <Route path="/storytale" exact component={Storytale} />
               <Route path="/recreation" exact component={RecreationCaseStudy} />
+              <Route path="/exploration" exact component={Exploration3d} />
             </div>
           </BrowserRouter>
         </div>

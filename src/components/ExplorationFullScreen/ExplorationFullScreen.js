@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "./RecreationTitlePage.scss";
+import "./ExplorationFullScreen.scss";
 
 import image from "./GuelphRec.png";
 
@@ -10,12 +10,7 @@ class RecreationTitlePage extends Component {
     this.state = {};
   }
 
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
-
   render() {
-    console.log(this.props);
     return (
       <div className="RecreationTitlePage">
         <img
