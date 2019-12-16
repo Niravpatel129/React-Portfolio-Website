@@ -35,6 +35,9 @@
     width: 100%;
     text-align: center;
     padding-left: 8.8%;
+    @media only screen and (max-width: 1680px) {
+      padding-left: 4%;
+    }
   }
 
   a {
@@ -43,6 +46,8 @@
   }
 
   h3 {
+    @media only screen and (max-width: 1680px) {
+    }
     padding-top: 25%;
     font-family: Neue Haas Unica W01 Regular;
     width: 20%;
@@ -53,7 +58,13 @@
     @media only screen and (max-width: 1000px) {
       /* For mobile phones: */
       font-size: 20px;
+      font-weight: 0;
+      font-family: "Ogg";
       padding-top: 20%;
+    }
+    @media only screen and (max-width: 1680px) {
+      font-family: "Ogg";
+      font-weight: normal;
     }
     display: inherit;
     position: absolute;
