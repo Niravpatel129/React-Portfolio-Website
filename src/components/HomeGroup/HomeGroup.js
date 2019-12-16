@@ -106,10 +106,7 @@ class HomeGroup extends Component {
                 }}
                 to="/"
               >
-                <div
-                  style={{ "padding-right": "35px" }}
-                  className="viewcasestudy"
-                >
+                <div style={{ paddingRight: "35px" }} className="viewcasestudy">
                   COMING SOON !!
                 </div>{" "}
               </Link>
