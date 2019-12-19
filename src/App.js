@@ -10,7 +10,7 @@ import InformationComponent from "./components/InformationComponent/InformationC
 import HexComponent from "./components/HexComponent/HexComponent";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import ImageBoxes from "./components/ImageBoxes/ImageBoxes";
-import HomeGroup from "./components/HomeGroup/HomeGroup";
+import HomePageItem from "./components/HomePageItem/HomePageItem";
 import HomeConclusion from "./components/HomeConclusion/HomeConclusion";
 import Home from "./components/Home/Home";
 import NextCaseStudy from "./nextCaseStudy/nextCaseStudy";
@@ -47,7 +47,7 @@ const PageOne = () => {
       <Toolbar theme="dark" />
       <Home />
       <HomeAbout />
-      <HomeGroup />
+      <HomePageItem />
       <HomeConclusion />
     </div>
   );
