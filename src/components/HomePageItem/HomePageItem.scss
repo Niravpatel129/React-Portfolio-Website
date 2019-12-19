@@ -8,7 +8,7 @@
     flex-direction: column;
   }
 
-  img {
+  .imageBlock {
     @media screen and (min-width: 321px) and (max-width: 768px) {
       width: 100%;
       height: 425px;
@@ -58,7 +58,7 @@
     font-weight: 700;
     color: white;
     padding: 4%;
-    width: 55%;
+    width: 50%;
     margin-top: 13%;
   }
 

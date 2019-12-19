@@ -11,7 +11,7 @@ class HomePageItem extends Component {
     return (
       <React.Fragment>
         <div className="HomePageItem">
-          <img src={image1} alt={image1}></img>
+          <img className="imageBlock" src={image1} alt={image1}></img>
           <div className="ContentBlock">
             <h1>01</h1>
             <div className="content">
@@ -42,7 +42,7 @@ class HomePageItem extends Component {
           </div>
         </div>
         <div className="HomePageItem">
-          <img src={image1} alt={image1}></img>
+          <img className="imageBlock" src={image1} alt={image1}></img>
           <div className="ContentBlock">
             <h1>02</h1>
             <div className="content">
@@ -73,7 +73,7 @@ class HomePageItem extends Component {
           </div>
         </div>
         <div className="HomePageItem">
-          <img src={image1} alt={image1}></img>
+          <img className="imageBlock" src={image1} alt={image1}></img>
           <div className="ContentBlock">
             <h1>03</h1>
             <div className="content">
@@ -104,7 +104,7 @@ class HomePageItem extends Component {
           </div>
         </div>
         <div className="HomePageItem">
-          <img src={image1} alt={image1}></img>
+          <img className="imageBlock" src={image1} alt={image1}></img>
           <div className="ContentBlock">
             <h1>04</h1>
             <div className="content">
