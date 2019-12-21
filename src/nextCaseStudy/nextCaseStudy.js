@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import "./nextCaseStudy.scss";
-import image1 from "./Thumbnail-1.jpg";
+// import image1 from "./Thumbnail-1.jpg";
 
 class nextCaseStudy extends Component {
   render() {
