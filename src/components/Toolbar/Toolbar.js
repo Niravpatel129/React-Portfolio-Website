@@ -23,9 +23,9 @@ const Toolbar = props => (
         }}
         className="about"
       >
-        <Link to="#HomeConclusion" className="about">
+        <a href="#HomeConclusion" className="about">
           ABOUT
-        </Link>
+        </a>
       </li>
       <li>
         <Link to="/storytale" className="contact">
