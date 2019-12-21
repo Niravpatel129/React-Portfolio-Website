@@ -35,7 +35,7 @@ class HomePageItem extends Component {
                 onClick={() => {
                   window.scrollTo(0, 0);
                 }}
-                to="/"
+                to="/storytale"
               >
                 <div className="viewcasestudy">
                   VIEW CASESTUDY{" "}
@@ -67,7 +67,7 @@ class HomePageItem extends Component {
                 onClick={() => {
                   window.scrollTo(0, 0);
                 }}
-                to="/"
+                to="/recreation"
               >
                 <div className="viewcasestudy">
                   VIEW CASESTUDY{" "}
@@ -129,7 +129,7 @@ class HomePageItem extends Component {
                 onClick={() => {
                   window.scrollTo(0, 0);
                 }}
-                to="/"
+                to="/exploration"
               >
                 <div className="viewcasestudy">
                   IN PROGRESS{" "}
