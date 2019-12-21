@@ -9,7 +9,7 @@
   padding: 10% 0;
   .title {
     width: 100%;
-    padding-left: 20%;
+    padding-left: 10%;
     font-size: 0.8em;
   }
 
@@ -23,6 +23,22 @@
 
     p {
       width: 36%;
+    }
+  }
+
+  table {
+    width: 80%;
+    // border-collapse: collapse;
+    border-spacing: 0px 4rem;
+    td {
+      vertical-align: text-top;
+    }
+
+    tr {
+      padding-bottom: 10%;
+    }
+    .tableTitle {
+      padding-right: 8%;
     }
   }
 }
