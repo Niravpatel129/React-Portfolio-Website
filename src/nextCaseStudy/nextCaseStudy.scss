@@ -5,7 +5,22 @@
   padding: 1% 15%;
   padding-bottom: 5%;
   font-family: ogg;
+  overflow: hidden;
 
+  .cursor {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    background: url(Thumbnail-1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    z-index: 0;
+  }
+  .nextAndBack {
+    z-index: 2;
+  }
   h1 {
     font-weight: 100;
     font-family: "Ogg";
@@ -14,15 +29,7 @@
     margin: 0;
     color: white;
     line-height: 110%;
-    z-index: 1;
-  }
-
-  img {
-    position: absolute;
-    overflow: hidden;
-    right: 500px;
-    z-index: 0;
-    width: 30%;
+    z-index: 3;
   }
 }
 
