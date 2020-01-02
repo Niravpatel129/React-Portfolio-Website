@@ -22,14 +22,22 @@ class RecreationPactAnalysis extends Component {
                 of their lives (25 - 55). The primary focus for this website
                 redesign will be catered towards providing the community a
                 service for finding the perfect program for themselves and their
-                child. This website vision is for the user is to provide an
+                children. This website vision is for the user is to provide an
                 experience that ensures a safe and user experience journey of
-                their search goals to offer a peace of mind and have assistance
-                where need be. <br></br>
-                <br></br>As the main target audience for this website, the
-                website should the language be relatively simple and friendly so
-                that it can be universally understood amoungst a wide vareity of
-                people.
+                their search goals to offer peace of mind and have assistance
+                where need be.
+                <br></br>
+                <br></br>
+                As the main target audience for this website, the website should
+                the language be relatively simple and friendly so that it can be
+                universally understood amongst a wide variety of people.
+                <br></br>
+                <br></br>
+                Activities (Updated word because it was spelled wrong - I forgot
+                the "i") One of the main activities of the website is that the
+                user (client) will be able to view and have access to vital
+                information needed to know in order to enroll or learn more
+                about the programs offered at each recreation.
               </td>
             </tr>
             <tr>
@@ -45,11 +53,11 @@ class RecreationPactAnalysis extends Component {
               <td className="tableTitle">Context</td>
               <td className="para">
                 It is important to consider that at this moment, the users do
-                not necessarily want to interact with the website, due to lack
-                of information and poor architecture. So, in order diffuse that,
-                the website, or recreation centre, needs to constantly have
-                important updates and information that are important for
-                recreation goers to know about, rather than causing anxeity for
+                not necessarily want to interact with the website, due to a lack
+                of information and poor architecture. So, in order to diffuse
+                that, the website, or recreation centre, needs to constantly
+                have important updates and information that are important for
+                recreation goers to know about, rather than causing anxiety for
                 workers at the recreation centre.
               </td>
             </tr>
