@@ -62,9 +62,8 @@ class HomePageItem extends Component {
                 </div>
                 <h2>Recreational Website</h2>
                 <p>
-                  Redesigning a recreational platform for my hometown. An
-                  exploration into it’s users and creating a better journey for
-                  those using the site.
+                  Redesigning a recreational platform for my hometown. An deep
+                  dive into it’s UI/UX.
                 </p>
                 <Link
                   onClick={() => {
@@ -94,8 +93,8 @@ class HomePageItem extends Component {
                 </div>
                 <h2>Google Travel App</h2>
                 <p>
-                  Focusing on features that Google already has and creating a
-                  better focus on it. Targeting peopel who want to create
+                  An exploration where I explore an interface where users are
+                  able to utilize different types of assets in one app.
                 </p>
                 <Link
                   onClick={() => {

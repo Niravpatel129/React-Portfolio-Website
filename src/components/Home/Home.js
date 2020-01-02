@@ -58,7 +58,6 @@ class Home extends Component {
           ></img>
 
           <h1 ref={this.title}>INTER-ACTION & VISUAL DESIGN-ER</h1>
-          <p>last updated: 07/26/19</p>
           <img
             className="logo"
             onMouseEnter={this.handleMouseOver}

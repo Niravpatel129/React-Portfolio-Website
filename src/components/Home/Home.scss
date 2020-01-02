@@ -31,23 +31,6 @@
     line-height: 100px;
     margin-top: 3.2%;
   }
-  p {
-    @media only screen and (max-width: 1000px) {
-      /* For mobile phones: */
-      top: 10%;
-    }
-    @media screen and (min-width: 421px) and (max-width: 1200px) {
-      display: none;
-    }
-
-    color: white;
-    writing-mode: vertical-lr;
-    position: absolute;
-    top: 25%;
-    right: 9.8%;
-    font-family: Neue Haas Unica W01 Regular;
-    font-size: 12px;
-  }
 
   .HomeImage {
     @media screen and (max-width: 1680px) {

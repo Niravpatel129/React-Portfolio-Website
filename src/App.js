@@ -35,7 +35,6 @@ import image1 from "./globalAssets/images/exploration/3d-image1.jpg";
 import image2 from "./globalAssets/images/exploration/3d-image2.jpg";
 import image3 from "./globalAssets/images/exploration/3d-image3.jpg";
 import image4 from "./globalAssets/images/exploration/3d-image4.jpg";
-import image5 from "./globalAssets/images/exploration/3d-image5.jpg";
 import image6 from "./globalAssets/images/exploration/3d-image6.jpg";
 
 import { connect } from "react-redux";
@@ -98,7 +97,6 @@ const Exploration3d = () => {
       <RecreationFullScreenMedia imageProp={image3} />
       <RecreationFullScreenMedia imageProp={image4} />
       <Vimeo URL="https://player.vimeo.com/video/379862200" />
-      <RecreationFullScreenMedia imageProp={image5} />
       <RecreationFullScreenMedia imageProp={image6} />
       <NextCaseStudy />
     </div>
@@ -126,7 +124,7 @@ class App extends Component {
   }
 
   render() {
-    if (this.props.currentSpinnerMode) {
+    if (true) {
       return (
         <div>
           <BrowserRouter>
