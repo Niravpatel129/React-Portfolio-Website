@@ -104,7 +104,7 @@ class HomePageItem extends Component {
                   to="/"
                 >
                   <div className="viewcasestudy">
-                    VIEW CASESTUDY{" "}
+                    COMMING SOON{" "}
                     <img className="arrow" src={arrow} alt={arrow}></img>
                   </div>
                 </Link>
@@ -135,7 +135,7 @@ class HomePageItem extends Component {
                   to="/exploration"
                 >
                   <div className="viewcasestudy">
-                    IN PROGRESS{" "}
+                    VIEW THREE DEE{" "}
                     <img className="arrow" src={arrow} alt={arrow}></img>
                   </div>
                 </Link>

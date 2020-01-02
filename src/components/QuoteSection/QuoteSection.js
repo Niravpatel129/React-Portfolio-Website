@@ -21,7 +21,7 @@ class QuoteSection extends Component {
           <div className="typebox2">
             <h3>TOOLS</h3>
             <p>
-              Sketch, Cinema4D, AfterEffects, Mixamo, 8thWall, Voice Recogition
+              Sketch, Cinema4D, AfterEffects, Mixamo, 8thWall, Voice Recognition
               API
             </p>
           </div>

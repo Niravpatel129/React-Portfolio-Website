@@ -40,8 +40,8 @@ class RecreationTextBlock extends Component {
           <h2>DESIGN GOALS</h2>
           <p>
             Design goals for this redesign is redefining the user experience of
-            Guelph’s recreational website. Design a anti-human experience in the
-            website. To create trust and functionality through this product.
+            Guelph’s recreational website. Design an anti-human experience in
+            the website. To create trust and functionality through this product.
           </p>
         </div>
       </div>

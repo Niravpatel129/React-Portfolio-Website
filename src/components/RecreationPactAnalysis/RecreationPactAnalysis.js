@@ -31,13 +31,6 @@ class RecreationPactAnalysis extends Component {
                 As the main target audience for this website, the website should
                 the language be relatively simple and friendly so that it can be
                 universally understood amongst a wide variety of people.
-                <br></br>
-                <br></br>
-                Activities (Updated word because it was spelled wrong - I forgot
-                the "i") One of the main activities of the website is that the
-                user (client) will be able to view and have access to vital
-                information needed to know in order to enroll or learn more
-                about the programs offered at each recreation.
               </td>
             </tr>
             <tr>

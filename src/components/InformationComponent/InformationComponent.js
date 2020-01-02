@@ -40,9 +40,7 @@ class InformationComponent extends Component {
         </h1>
         <div className="videoboxmodel">
           <div className="how">
-            <h3>
-              The <br></br>Problem
-            </h3>
+            <h3>How</h3>
             <p>
               The experience takes place between a parent and their child on a
               tablet. The parent or child selects a story they want to read from

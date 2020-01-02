@@ -48,7 +48,7 @@ class ImageBoxes extends Component {
           Parents and their kids are more digitally oriented than ever. As shown
           with Storytale, storytelling can be more collaborative and engaging.
           <br></br> <br></br>Instead of replacing the physical experience, we
-          wanted to see this as an opprotunity and enhance it.
+          wanted to see this as an opportunity and enhance it.
         </p>
       </div>
     );

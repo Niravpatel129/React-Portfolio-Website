@@ -15,14 +15,14 @@ class RecreationTwoColumnsText extends Component {
             The<br></br> Problem
           </h3>
           <p>
-            The platform is in need of a new visual design and a reorgainzed
+            The platform is in need of a new visual design and a reorganized
             information architecture as the current one is insufficient.
             <br></br>
             <br></br>
             The current platform is outdated and simply lacks showing the
             important information, whereas the pamphlet provides important
             information. Therefore, most customers will use the pamphlet or do
-            most buisness over the phone and in person. However, pamphlets are
+            most business over the phone and in person. However, pamphlets are
             outdated as most classes would get canceled if there isn’t enough
             participants.
           </p>
@@ -34,8 +34,7 @@ class RecreationTwoColumnsText extends Component {
           </h3>
           <p>
             To better understand the current information architecture of
-            guelph.ca page, I mapped out their current platform and it’s
-            content.
+            guelph.ca page, I mapped out their current platform and its content.
             <br></br>
             <br></br>
             After mapping out the content, I myself, was struggling to
