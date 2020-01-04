@@ -124,7 +124,7 @@ class App extends Component {
   }
 
   render() {
-    if (true) {
+    if (this.props.currentSpinnerMode) {
       return (
         <div>
           <BrowserRouter>
