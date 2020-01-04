@@ -13,6 +13,10 @@ import arrow from "./arrow.svg";
 import "./HomePageItem.scss";
 
 class HomePageItem extends Component {
+  componentDidMount() {
+    console.log("we mounted");
+    this.forceUpdate();
+  }
   render() {
     return (
       <React.Fragment>
@@ -65,17 +69,17 @@ class HomePageItem extends Component {
                   Redesigning a recreational platform for my hometown. An deep
                   dive into it’s UI/UX.
                 </p>
-                <Link
+                <a
                   onClick={() => {
                     window.scrollTo(0, 0);
                   }}
-                  to="/recreation"
+                  href="/recreation"
                 >
                   <div className="viewcasestudy">
                     VIEW CASESTUDY{" "}
                     <img className="arrow" src={arrow} alt={arrow}></img>
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

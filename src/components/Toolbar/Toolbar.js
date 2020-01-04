@@ -7,9 +7,9 @@ const Toolbar = props => (
   <div className="Toolbar">
     <ul className={props.theme}>
       <li className="name">
-        <Link to="/" className="name">
+        <a className="name" href="/">
           MICHELLE VU
-        </Link>
+        </a>
       </li>
       <li>
         <Link to="/storytale">TORONTO</Link>
