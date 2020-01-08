@@ -40,6 +40,7 @@ import image6 from "./globalAssets/images/exploration/3d-image6.jpg";
 import { connect } from "react-redux";
 import { setLoadingSpinner } from "./actions";
 
+//
 const PageOne = () => {
   return (
     <div className="HomePage">
