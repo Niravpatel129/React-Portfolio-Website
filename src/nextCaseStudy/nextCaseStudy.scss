@@ -8,7 +8,7 @@
   overflow: hidden;
 
   .cursor {
-    display: none;
+    display: block;
     position: absolute;
     width: 600px;
     height: 400px;
@@ -19,6 +19,7 @@
     background-size: cover;
   }
   .nextAndBack {
+    position: relative;
     z-index: 2;
   }
   h1 {
@@ -31,6 +32,10 @@
     line-height: 110%;
     z-index: 9999;
   }
+}
+
+a {
+  text-decoration: none;
 }
 
 #dark {
