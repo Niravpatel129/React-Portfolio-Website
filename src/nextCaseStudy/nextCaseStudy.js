@@ -12,9 +12,11 @@ class nextCaseStudy extends Component {
   constructor(props) {
     super(props);
     this.myRef = React.createRef();
+    this.textCase = React.createRef();
   }
 
   mouseMove = e => {
+    console.log(e.pageX);
     TweenLite.to(this.myRef.current, 0.5, {
       css: {
         left: e.pageX,
@@ -34,11 +36,9 @@ class nextCaseStudy extends Component {
   };
 
   handleMouseLeave = () => {
-    console.log("leave");
-
     TweenLite.to(this.myRef.current, 0, {
       css: {
-        opacity: "1"
+        opacity: "0"
       }
     });
   };
@@ -72,14 +72,15 @@ class nextCaseStudy extends Component {
       <React.Fragment>
         <div
           className="nextCaseStudy"
+          onMouseMove={this.mouseMove}
           id={theme}
           onMouseLeave={this.handleMouseLeave}
         >
           <div className="cursor" ref={this.myRef}></div>
           <div
             className="nextAndBack"
-            onMouseOver={this.mouseMove}
             onMouseEnter={this.handleMouseEnter}
+            ref={this.textCase}
           >
             <Link to="/">
               <h1 onMouseEnter={this.onHover}>Next</h1>
