@@ -3,6 +3,8 @@ Website is hoted at: http://www.michvu.co
 
 Alias hosting at: https://hardcore-jones-839753.netlify.com
 
+![download](https://user-images.githubusercontent.com/43049943/183281716-f4b5f5ca-e04e-444a-a9dd-11240bcea99b.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
